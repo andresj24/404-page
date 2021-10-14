@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
-/* font-family: 'Inconsolata', monospace;
- */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-/* font-family: 'Space Mono', monospace;
- */
+
 html {
     box-sizing: border-box;
     font-size: 62.5%; /*1rem = 10px*/
@@ -26,6 +23,8 @@ header {
     font-size: 4rem;
     text-transform: uppercase;
 }
-.principal-img {
+.principal-img img{
     max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
