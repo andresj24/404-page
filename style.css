@@ -91,12 +91,29 @@ footer a {
     text-decoration: none;
     color: #bdbdbd;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .container {
-        flex-direction: row;
-        flex-wrap: wrap;
+        max-width: 1024px;
+        padding: 0 3rem 0 3rem;
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        margin-bottom: 3rem;  
+        gap: 5rem;       
     }
     .principal-img {
-        width: 50rem;
+       max-width: 45rem;
+    }
+    .principal-img img {
+        margin: 0 auto;
+        height: 75%;
+    }
+    .content p {
+        width: 300px;
+    }
+    footer {
+        margin: 0;
     }
 }  
