@@ -20,7 +20,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     margin: 0 auto;
 }
 header {
@@ -113,7 +113,7 @@ footer a {
     .content p {
         width: 300px;
     }
-    footer {
+    /* footer {
         margin: 0;
-    }
+    } */
 }  
